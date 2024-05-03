@@ -186,3 +186,41 @@
     padding: 1.2rem 1.4rem;
     font-size: 1rem;
 }
+
+/* signup__form */
+
+.signup__form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1.25rem 0;
+}
+
+.signup__form input {
+    width: 100%;
+    margin-bottom: 8px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.signup__form label {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* 레이블 아래에 10px 여백 추가 */
+}
+
+.signup__form button {
+    width: 100%;
+    padding: 1.25rem;
+    background-color: var(--balck400);
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.signup__form button:hover {
+    background-color: darkgray;
+    color: var(--white);
+}

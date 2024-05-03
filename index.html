@@ -135,6 +135,17 @@
         </div>
         <!-- //sign__form -->
 
+        <div class="signup__form" style="display: none;">
+            <form action="#" method="post">
+                <label for="signupEmail">이메일:</label>
+                <input type="email" id="signupEmail" name="signupEmail">
+                <label for="signupPassword">비밀번호:</label>
+                <input type="password" id="signupPassword" name="signupPassword">
+                <button type="submit">가입 완료</button>
+            </form>
+        </div>
+        <!-- //singnup__ -->
+
         <div class="user__find">
             <li><span>아이디가 기억이 나지 않는다면!</span> <a href="#" class="line-under">아이디 찾기</a></li>
             <li><span>비밀번호가 기억이 나지 않는다면!</span> <a href="#" class="line-under">비밀번호 찾기</a></li>
@@ -154,6 +165,18 @@
                 $(".sign").hide();
             })
         })
+        // 가입하기 링크 클릭 이벤트
+        $(".sign__signup a").click(function (event) {
+            event.preventDefault(); // 기본 이벤트 중지
+            $(".sign__form").hide(); // 로그인 폼 숨기기
+            $(".signup__form").show(); // 회원가입 폼 보이기
+        });
+
+        // 모달 초기화 함수
+        function resetModal() {
+            $(".sign__form").show(); // 로그인 폼 보이기
+            $(".signup__form").hide(); // 회원가입 폼 숨기기
+        }
     </script>
     <script>
         // 이메일 로그인
