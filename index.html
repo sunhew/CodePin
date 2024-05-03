@@ -108,7 +108,7 @@
                         <!-- //google__email -->
                     </div>
                     <!-- //member__signin -->
-                    <div class="email_sigin" style="display: none;">
+                    <div class="email_signin" style="display: none;">
                         <legend class="blind">로그인 영역</legend>
                         <div>
                             <label for="youEmail" class="blind">이메일</label>
@@ -150,20 +150,20 @@
             $("#header .login").click(function () {
                 $(".sign").show();
             })
-            $(".sign").click(function () {
+            $(".sign .popup_close").click(function () {
                 $(".sign").hide();
             })
         })
-
-        // $(function () {
-        //     // modal
-        //     $("#header .login").click(function () {
-        //         $(".sign").show();
-        //     })
-        //     $(".sign").click(function () {
-        //         $(".sign").hide();
-        //     })
-        // })
+    </script>
+    <script>
+        $(function () {
+            // 이메일로 로그인 버튼 클릭 이벤트
+            $(".site__email button").click(function (e) {
+                e.preventDefault(); // 버튼 기본 동작 방지
+                $(".member__signin").hide(); // member__signin 섹션 숨기기
+                $(".email_signin").show(); // email_signin 섹션 보이기
+            });
+        });
     </script>
 </body>
 

@@ -156,8 +156,8 @@
     text-underline-position: under;
 }
 
-/* email_sigin */
-.email_sigin input {
+/* email_signin */
+.email_signin input {
     width: 95%;
     height: 40px;
     margin-bottom: 10px;
@@ -165,7 +165,7 @@
     background-color: var(--white);
 }
 
-.email_sigin button {
+.email_signin button {
     justify-content: center;
     text-align: center;
     width: 50%;
@@ -175,7 +175,7 @@
     margin-left: 90px;
 }
 
-.email_sigin button:hover {
+.email_signin button:hover {
     background-color: #000;
     color: var(--white);
 }
