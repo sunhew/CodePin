@@ -1,9 +1,15 @@
 :root {
     --fontN: "NanumSquareNeo";
     --fontG: "GmarketSans";
+    --fontL: "lato";
 
-    --mainColor: #F3F4EF;
-    --pointColor: #DEEEFA;
+    --mainColor: #FAF6EE;
+    --pointColor1: #048EC9;
+    --pointColor2: #B3DEBE;
+
+    --pointColor1-1: #48ABD1;
+    --pointGreen: #058A2A;
+
 
 
     --white: #fff;
@@ -13,6 +19,7 @@
     --white400: #ccc;
     --white500: #bbb;
     --white600: #aaa;
+    --white700: #d9d9d9;
 
     --black: #000;
     --black100: #111;
@@ -31,12 +38,6 @@
 
     /* 아이폰 가로 모드에서 글씨 확대 금지 */
     -webkit-text-size-adjust: 100%;
-
-    /* 모든 이미지 */
-    --snsInsta: url(../img/instagram-icon.svg);
-    --snsGithub: url(../img/github-icon.svg);
-    --snsYoutube: url(../img/youtube-icon.svg);
-    --snsFigma: url(../img/figma-icon.svg);
 }
 
 @media (max-width: 800px) {

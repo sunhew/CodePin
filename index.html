@@ -6,7 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>codepin</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="assets/ico/favicon.jpg" rel="shortcut icon">
+    <style>
+        body {
+            background-color: var(--pointColor1);
+        }
+
+        .active {
+            text-decoration: underline;
+            text-underline-offset: under;
+            text-underline-position: unset;
+        }
+    </style>
 </head>
 
 <body>
@@ -33,44 +43,53 @@
                         </div>
                     </div>
                 </fieldset>
-                <div class="login btn">
-                    <a href="#">로그인</a>
-                </div>
+                <div class="login btn">로그인</div>
             </div>
         </div>
     </header>
     <!-- //header -->
     <main id="main">
-        <div class="container">
-            <div class="main-Intro">
-                <section class="section01">
-                    <div class="content">
-                        <h3>
-                            Code <br>
-                            smarter <br>
-                            faster <br>
-                        </h3>
-                        <div class="section01__img01"></div>
-                        <div class="section01__img02"></div>
-                        <div class="section01__img03"></div>
-                    </div>
-                </section>
+        <section class="section01">
+            <h3>CODE PIN</h3>
+            <div>
+                <a href="#">click</a>
             </div>
-        </div>
+        </section>
+        <!-- //section01 -->
+        <section class="section02">
+            <h3>흩어져 있는 코드를 모아보세요</h3>
+            <div class="scrollback">
+                <div class="scrollbackL">
+                    <h3>필요한 코드를 빠르게 찾아보세요.</h3>
+                    <img src="assets/img/main-img04.jpg" alt="검은색 코드">
+                </div>
+                <div class="scrollbackR">
+                    <h3>코드를 쉽게 접근하고 관리하세요.</h3>
+                    <img src="assets/img/main-img03.jpg" alt="검은색 코드">
+                </div>
+            </div>
+        </section>
+        <!-- //section02 -->
+        <section class="section03">
+        </section>
+        <!-- //section03 -->
+        <section class="section04">
+        </section>
+        <!-- //section04 -->
     </main>
 
     <footer id="footer" role="contentinfo">
         <div class="container">
             <div class="footer__inner">
                 <div class="left">
-                    <span>문의 : </span><a href="#" class="maill">kjw040416@gmail.com</a>
+                    <span>문의 : </span><a href="kjw040416@gmail.com" class="maill">kjw040416@gmail.com</a>
+                    <p>Copyright © WEBS Corp. All Rights Reserved.</p>
                 </div>
-                <p>Copyright © WEBS Corp. All Rights Reserved.</p>
                 <div class="right">
                     <ul>
-                        <li><a href="#">김진우</a></li>
-                        <li><a href="#">김이현</a></li>
-                        <li><a href="#">최선화</a></li>
+                        <li><a href="https://github.com/KIMJW04">김진우</a></li>
+                        <li><a href="https://github.com/kimyih">김이현</a></li>
+                        <li><a href="https://github.com/sunhew">최선화</a></li>
                     </ul>
                 </div>
             </div>
@@ -79,124 +98,110 @@
     <!-- //footer -->
 
     <div class="sign">
-        <a href="#" class="popup_close">X</a>
-        <div class="sign__title">
-            <img src="assets/img/974e19416242ccb6755ce5e4878d4988.jpg" alt="#">
-            <div>
-                <h2>WELCOME</h2>
-                <p>
-                    "마이 페이지에 원하는 링크를 붙여넣으세요"
-                </p>
-            </div>
-        </div>
-        <!-- //sign__title -->
-
         <div class="sign__form">
-            <form action="#" name="#" method="post">
-                <fieldset>
-                    <legend class="blind">로그인 영역</legend>
-                    <div class="member__signin">
-                        <label for="Email" class="blind">이메일 로그인 영역</label>
-                        <div class="site__email">
-                            <button>이메일로 로그인</button>
-                        </div>
-                        <!-- //site__email -->
-                        <label for="googleEmail" class="blind">google 계정 로그인 영역</label>
-                        <div class="google__email">
-                            <button><span><img src="assets/img/google_icon.svg">Google 계정으로 로그인</span></button>
-                        </div>
-                        <!-- //google__email -->
-                    </div>
-                    <!-- //member__signin -->
-                    <div class="email_signin" style="display: none;">
+            <div class="popup_close">X</div>
+            <div class="sign__menu">
+                <div class="sign__in__btn active">SIGN IN</div>
+                <div class="sign__up__btn">SIGN UP</div>
+            </div>
+            <!-- //sign__menu -->
+            <div class="sign__in">
+                <form action="#" name="#" method="post">
+                    <fieldset>
                         <legend class="blind">로그인 영역</legend>
                         <div>
                             <label for="youEmail" class="blind">이메일</label>
-                            <input type="Email" name="youEmail" id="youEmail" placeholder="이메일을 입력해주세요." required
-                                autocomplete="off" class="input_style" required>
+                            <input type="text" name="youEmail" id="youEmail" placeholder="이메일" autocomplete="off"
+                                class="input-style" required>
                         </div>
                         <div>
                             <label for="youPass" class="blind">패스워드</label>
-                            <input type="password" name="youPass" id="youPass" placeholder="패스워드를 입력해주세요" required
-                                autocomplete="off" class="input_style" required>
+                            <input type="password" name="youPass" id="youPass" placeholder="패스워드" autocomplete="off"
+                                class="input-style" required>
                         </div>
-                        <div>
-                            <button type="submit">로그인</button>
+                        <div class="center">
+                            <button type="submit" class="btn-style">로그인</button>
                         </div>
-                    </div>
-                    <div class="sign__signup">
-                        <span>처음 오셨나요?</span>
-                        <a href="">가입하기</a>
-                    </div>
-                    <div class="sign__policy"><a href="#">이용약관</a> 및 <a href="#">개인정보처리방침</a>에 동의하고 시작합니다.</div>
-                    <!-- // sign___signup -->
-                </fieldset>
-            </form>
-        </div>
-        <!-- //sign__form -->
+                    </fieldset>
+                </form>
+                <div class="user__find line-top">
+                    </ul>
+                    <li><span>아이디가 기억이 나지 않는다면!</span> <a href="#" class="line-under">아이디 찾기</a></li>
+                    <li><span>비밀번호가 기억이 나지 않는다면!</span> <a href="#" class="line-under">비밀번호 찾기</a></li>
+                    </ul>
+                </div>
+                <!-- //user__find -->
+            </div>
+            <!-- //sign__in -->
 
-        <div class="signup__form" style="display: none;">
-            <form action="#" method="post">
-                <label for="signupEmail">이메일:</label>
-                <input type="email" id="signupEmail" name="signupEmail">
-                <label for="signupPassword">비밀번호:</label>
-                <input type="password" id="signupPassword" name="signupPassword">
-                <button type="submit">가입 완료</button>
-            </form>
+            <div class="sign__up">
+                <form action="#" name="#" method="post">
+                    <div>
+                        <label for="youEmail" class="required">이메일</label>
+                        <div class="check">
+                            <input type="email" name="youEmail" id="youEmail" placeholder="이메일을 적어주세요!"
+                                autocomplete="off" class="input-style">
+                            <div class="btn">중복확인</div>
+                        </div>
+                        <p class="msg" id="youEmailComment"></p>
+                    </div>
+                    <div>
+                        <label for="youPass" class="required">비밀번호</label>
+                        <input type="password" name="youPass" id="youPass" placeholder="비밀번호를 적어주세요!" autocomplete="off"
+                            class="input-style">
+                        <p class="msg" id="youPassComment"></p>
+                    </div>
+                    <div>
+                        <label for="youPassC" class="required">비밀번호 확인</label>
+                        <input type="password" name="youPassC" id="youPassC" placeholder="다시 한번 비밀번호를 적어주세요!"
+                            autocomplete="off" class="input-style">
+                        <p class="msg" id="youPassCComment"></p>
+                    </div>
+                    <div>
+                        <label for="youName" class="required">닉네임</label>
+                        <div class="check">
+                            <input type="youName" name="youName" id="youName" placeholder="닉네임을 적어주세요!"
+                                autocomplete="off" class="input-style">
+                            <div class="btn">중복확인</div>
+                        </div>
+                        <p class="msg" id="youNameComment"></p>
+                    </div>
+                    <div class="center">
+                        <button href="sumbit" class="btn-style">회원가입</button>
+                    </div>
+                    </fieldset>
+                </form>
+                <div class="sign__policy line-top"><a href="#">이용약관</a> 및 <a href="#">개인정보처리방침</a>에 동의하고 시작합니다.</div>
+            </div>
+            <!-- //sign__up -->
         </div>
-        <!-- //singnup__ -->
-
-        <div class="user__find">
-            <li><span>아이디가 기억이 나지 않는다면!</span> <a href="#" class="line-under">아이디 찾기</a></li>
-            <li><span>비밀번호가 기억이 나지 않는다면!</span> <a href="#" class="line-under">비밀번호 찾기</a></li>
-            </ul>
-        </div>
-        <!-- //member__add -->
+        <!-- sign__form -->
     </div>
     <!-- //login -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         $(function () {
-            // modal    
+            // sign    
             $("#header .login").click(function () {
                 $(".sign").show();
+                $("body").css("overflow", "hidden");
             })
-            $(".sign .popup_close").click(function () {
+            $(".popup_close").click(function () {
                 $(".sign").hide();
+                $("body").css("overflow", "");
             })
-        })
-        // 가입하기 링크 클릭 이벤트
-        $(".sign__signup a").click(function (event) {
-            event.preventDefault(); // 기본 이벤트 중지
-            $(".sign__form").hide(); // 로그인 폼 숨기기
-            $(".signup__form").show(); // 회원가입 폼 보이기
-        });
-
-        // 모달 초기화 함수
-        function resetModal() {
-            $(".sign__form").show(); // 로그인 폼 보이기
-            $(".signup__form").hide(); // 회원가입 폼 숨기기
-        }
-    </script>
-    <script>
-        // 이메일 로그인
-        $(function () {
-            // 이메일로 로그인 버튼 클릭 이벤트
-            $(".site__email button").click(function (e) {
-                e.preventDefault(); // 버튼 기본 동작 방지
-                $(".member__signin").hide(); // member__signin  숨기기
-                $(".email_signin").show(); // email_signin 보이기
-            });
-        });
-
-        //로그인 누를경우 로그인 화면 초기화
-        $(function () {
-            // modal    
-            $("#header .login").click(function (e) {
-                e.preventDefault(); // 버튼 기본 동작 방지
-                $(".email_signin").hide(); // email_signin 숨기기
-                $(".member__signin").show(); // member__signin 보이기
-            });
+            $(".sign__in__btn").click(function () {
+                $(".sign__up").hide();
+                $(".sign__in").show();
+                $(".sign__in__btn").addClass("active");
+                $(".sign__up__btn").removeClass("active");
+            })
+            $(".sign__up__btn").click(function () {
+                $(".sign__in").hide();
+                $(".sign__up").show();
+                $(".sign__in__btn").removeClass("active");
+                $(".sign__up__btn").addClass("active");
+            })
         })
     </script>
 </body>
