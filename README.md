@@ -3,6 +3,9 @@
 ![header](https://capsule-render.vercel.app/api?type=soft&color=gradient&text=%20CodePin%20&height=300&fontSize=100&animation=blinking&fontAlign=50)
 
 # CodePin
+<!-- () 사이에 본인 닷홈 주소 넣기 -->
+[사이트 방문](http://tus1932.dothome.co.kr/)
+[Language change: English](https://github.com/sunhew/CodePinen/)
 
 ## 프로젝트 설명
 
