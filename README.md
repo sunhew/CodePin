@@ -6,6 +6,7 @@
 Code Pin은 평소 즐겨찾기 하거나 저장해두는 코드들을 사용하기 위해 다시 찾을때 불편해서 기획하게 되었습니다. 사용자 자신이 좋아하는 코드를 모아 관리하고 필요할 때 찾을 수 있으며, 문제 해결에 도움이 되는 코드를 공유하고 검색할 수 있는 공간이 필요해 기획하게 되었습니다.
 
 ### 🛠️ 사용하는 기술
+
 <img alt="Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"  height="25px"/>
 <img alt="Css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="25px"/>
 <img alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="25px"/>
