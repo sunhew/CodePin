@@ -1,3 +1,7 @@
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsunhewhttps%3A%2F%2Fgithub.com%2Fsunhew&count_bg=%2379C83D&title_bg=%23555555&icon=mongodb.svg&icon_color=%23B5FAFF&title=Welcome+to+my+github&edge_flat=false"/></a>
+
+![header](https://capsule-render.vercel.app/api?type=soft&color=gradient&text=%20CodePin%20&height=300&fontSize=100&animation=blinking&fontAlign=50)
+
 # CodePin
 
 ## 프로젝트 설명
@@ -14,6 +18,7 @@ Code Pin은 평소 즐겨찾기 하거나 저장해두는 코드들을 사용하
 <img alt="Jquery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" height="25px"/>
 <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" height="25px"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white" height="25px"/>
+<img src="https://img.shields.io/badge/GSAP-512BD4?style=for-the-badge&logo=GSAP&logoColor=white" height="25px">
 
 ### ⛳️ 목표
 
@@ -58,7 +63,7 @@ __CodePin__ 이라는 브랜드 이름에는 __코드(Code)__ 와 __핀(Pin)__ �
 ### 색상
 심플하면서도 깔끔한 느낌을 내기 위해 여러 색 조합을 시도하고 저희만의 색상 팔렛트를 완성했습니다.
 
-<img src="https://github.com/sunhew/CodePin/assets/161446039/e2949964-f6b7-48b5-a1fd-5b1b3b593b24" alt="image 49" width="500"/>
+<img src="https://github.com/sunhew/CodePin/assets/161446039/e2949964-f6b7-48b5-a1fd-5b1b3b593b24" alt="image 49" width="90%"/>
 
 ---
 
@@ -116,7 +121,7 @@ __레퍼런스__:
 
 ---
 
-## 🧑🏻‍💼 컨셉 
+## 📑 컨셉 
 
 - 심플하고 깔끔한 직곽적인 UI/UX
 - 색상 :
@@ -133,7 +138,21 @@ __레퍼런스__:
 
 ---
 
+## 👤 프로젝트 팀원
+
+김이현
+[CodePin](http://asd576.dothome.co.kr/), [Gmail](wlsakf23@gmail.com), [GitHub](https://github.com/kimyih)   
+
+김진우
+[CodePin](), [Gmail](kjw040416@gmail.com), [GitHub](https://github.com/KIMJW04/)   
+
+최선화
+[CodePin](http://tus1932.dothome.co.kr/), [Gmail](liarusen@gmail.com), [GitHub](https://github.com/sunhew)   
+
+---
+
 
 ## 📑 기획 스토리 보드
 
 <img src="https://github.com/sunhew/CodePin/assets/161446039/3ef5fbd2-aa8a-44ed-b103-a347766b0c53" alt="image 49" width="90%"/> 
+<img src="https://github.com/sunhew/CodePin/assets/161446039/e9866362-16f3-4e2c-aaae-146d0cb0b536" alt="image 49" width="90%"/> 
