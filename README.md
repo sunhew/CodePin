@@ -86,7 +86,12 @@ __CodePin__ 이라는 브랜드 이름에는 __코드(Code)__ 와 __핀(Pin)__ �
 ## 💼 비즈니스 모델
 
 - 광고 수익: IT 제품 및 서비스 관련 광고를 통한 수익 모델
+<br/>
+
 - 프리미엄 기능 제공: 추가 기능 및 서비스를 제공하는 프리미엄 모델 도입
+
+<br/>
+
 - 데이터 분석 및 트렌드 제공: 데이터 기반의 분석 서비스를 제공하여 기업 및 개발자들에게 유용한 정보 제공
 
 
@@ -112,8 +117,17 @@ __레퍼런스__:
 ## 📚 기타 필요한 사항들
 
 - 보안과 프라이버시: 사용자 데이터 보호 및 개인정보 보안에 대한 철저한 관리
+
+<br/>
+
 - 다국어 지원: 다양한 사용자들을 위한 다국어 지원 기능 제공
+
+<br/>
+
 - 모바일 최적화: 모바일 환경에서도 원활하게 사용할 수 있는 앱 개발
+
+<br/>
+
 - 마케팅 및 사용자 유치: 개발자 커뮤니티와의 협력 및 마케팅 전략 수립 
 
 
@@ -142,7 +156,7 @@ __레퍼런스__:
 [CodePin](http://asd576.dothome.co.kr/), [Gmail](wlsakf23@gmail.com), [GitHub](https://github.com/kimyih)   
 
 김진우
-[CodePin](), [Gmail](kjw040416@gmail.com), [GitHub](https://github.com/KIMJW04/)   
+[CodePin](http://jw040416.dothome.co.kr/), [Gmail](kjw040416@gmail.com), [GitHub](https://github.com/KIMJW04/)   
 
 최선화
 [CodePin](http://tus1932.dothome.co.kr/), [Gmail](liarusen@gmail.com), [GitHub](https://github.com/sunhew)   
@@ -154,3 +168,4 @@ __레퍼런스__:
 
 <img src="https://github.com/sunhew/CodePin/assets/161446039/3ef5fbd2-aa8a-44ed-b103-a347766b0c53" alt="image 49" width="90%"/> 
 <img src="https://github.com/sunhew/CodePin/assets/161446039/e9866362-16f3-4e2c-aaae-146d0cb0b536" alt="image 49" width="90%"/> 
+<img src="https://github.com/sunhew/CodePinen/assets/161446039/bca1cfbd-b755-4a95-b467-4aea1fd34df6" alt="image 49" width="90%"/> 
